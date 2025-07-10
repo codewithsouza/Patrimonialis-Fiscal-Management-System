@@ -1,92 +1,92 @@
-# 📊 Fiscal Management System – Patrimonialis
-> ⚠️ This project is currently under development.
+# 🏛️ Patrimonialis – Fiscal Management System
 
-
-A complete platform for managing corporate tax debts, legal processes, and customer portfolios. Designed to help fiscal/legal consultancies monitor debts at federal, state, and municipal levels, simulate payments, and track negotiations and legal actions.
+A full-featured platform for fiscal and asset management, designed to assist administrators and clients in tracking debts, legal processes, and financial negotiations efficiently and securely.
 
 ---
 
-## 🚀 Stack Used
+## 🚀 Tech Stack
 
-`Flask` · `Python` · `PostgreSQL` · `JavaScript` · `Bootstrap` · `TailwindCSS`
-
----
-
-## 🔐 User Roles
-
-- **Administrator**: Full system access, including client and debt management
-- **Client**: Limited access to their own dashboard, debts, and notifications
+`Flask` · `Python` · `JavaScript` · `PostgreSQL` · `HTML/CSS` · `Bootstrap` · `TailwindCSS`
 
 ---
 
-## ⚙️ Key Features
+## 🔧 System Status
 
-### ✅ Admin Dashboard
-- Overview of total clients, debt value, active legal processes, and weekly events
-- Quick access to system-wide statistics and notifications
-
-### 👥 Client Management
-- Register, edit, delete clients with full details (name, CNPJ, tax regime, segment, etc.)
-- Export client data to Excel/CSV
-- (Import via file – in development)
-
-### 💸 Debt Management
-- Track federal, state, and municipal debts by client
-- Filter by type (IPTU, ISS, fees, fines), date range, city, and status
-- Simulate payments and monitor outstanding balances
-- Add new debts through the interface
-
-### ⚖️ Legal Process Management
-- Follow legal/judicial processes per client
-- See statuses, updates, and movement history
-
-### 📬 Notifications & Events
-- Send system notifications to clients
-- Manage and view event reminders
-
-### 🤝 Negotiations
-- Track ongoing negotiations with clients
-- Record proposals, agreements, and negotiation history
-
-### 🔐 Authentication & Access Control
-- Secure login/logout for admins and clients
-- New admin registration with authorization code
-- Flask-Login based session management
+🚧 This project is currently under active development. Features and UI are subject to refinement.
 
 ---
 
-## 👤 Client Portal
+## ⚙️ Core Features
 
-### 🏠 Dashboard
-- View personal info and a summary of debts, negotiations, and legal processes
+### 🔒 Admin Panel
 
-### 💰 Debt Overview
-- Filterable list of active debts with simulation tools
+- **Management Dashboard**: Track clients, total debt value, active legal processes, and weekly events.
+- **Clients**: Register, update, delete, and export clients with detailed info (CNPJ, contract, address, etc).
+- **Debts**: Filter by type (federal, state, municipal), simulate payments, and track remaining balances.
+- **Processes**: Follow legal and administrative processes with history and movement logs.
+- **Notifications**: Send reminders and system alerts to clients.
+- **Negotiations**: Manage proposals and agreements with history tracking.
+- **Authentication**: Secure login/logout and role-based access.
+- **Admins**: Admin registration via auth code.
 
-### 📑 Negotiations
-- View active proposals, accept deals, and access history
+### 👤 Client Panel
 
-### ⚖️ Processes
-- Follow all ongoing legal processes linked to the account
+- **Dashboard**: Personal summary of debts, processes, and negotiations.
+- **Debt Visualization**: Filter debts by type, region, status, and simulate payments.
+- **Negotiations**: View offers, accept proposals, and track agreement status.
+- **Processes**: Full process history and tracking.
+- **Notifications**: Receive important messages from administrators.
+- **Authentication**: Client registration and login.
 
-### 📢 Notifications
-- Receive important updates and messages from admins
+### 🌐 General
 
----
-
-## 📱 UI & Security
-
-- **Responsive Interface** using Bootstrap and TailwindCSS
-- **Secure Session Handling** with Flask-Login
-- **Clear role separation** between admin and client
-
----
-
-## 📤 Export / Import
-
-- Export data (e.g., clients) to spreadsheet formats
-- Client import via file (feature under development)
+- **Responsive Design**: Optimized for mobile and desktop devices.
+- **Secure Access**: Session control and profile differentiation (admin vs client).
+- **Import/Export**: Export to Excel/CSV, and (soon) import clients via file upload.
 
 ---
 
-📌 *This project is structured with scalability, security, and usability in mind — ideal for consultancies or legal teams managing high client volume and sensitive fiscal data.*
+## 🖼️ Screenshots
+
+> Below are some illustrative screens of the system in use.
+
+### 🔐 Admin Login  
+![Admin Login](./seets/login%20admin.png)
+
+### 🔐 Client Login  
+![Client Login](./seets/login%20cliente.png)
+
+### 🧭 Admin Dashboard  
+![Admin Dashboard](./seets/Dashboard%20Empresa.png)
+
+### 📊 Client Dashboard  
+![Client Dashboard](./seets/Dashboard%20Clientes.png)
+
+### 🧾 Clients Listing  
+![Clients](./seets/Clientes.png)
+
+### 📥 Debt Auditing  
+![Debt Auditing](./seets/auditoria_divida.png)
+
+### 💰 Federal Debts  
+![Federal Debts](./seets/debitos_federais.png)
+
+### 🏛️ State Debts  
+![State Debts](./seets/debitos_estaduais.png)
+
+### 🏘️ Municipal Debts  
+![Municipal Debts](./seets/debitos_municipais.png)
+
+---
+
+## 📩 Contact
+
+[![Email](https://img.shields.io/badge/-Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:lds.antunesdev@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/lucas-souza-a869882aa/)
+[![GitHub](https://img.shields.io/badge/-GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/codewithsouza)
+
+---
+
+💡 *Let’s build something great together.*
+
+<!-- updated by Lucas on July 10 -->

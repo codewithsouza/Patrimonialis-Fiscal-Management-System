@@ -1,4 +1,5 @@
 # 🏛️ Patrimonialis – Fiscal Management System
+> ⚠️ This project is currently under development.
 
 A full-featured platform for fiscal and asset management, designed to assist administrators and clients in tracking debts, legal processes, and financial negotiations efficiently and securely.
 

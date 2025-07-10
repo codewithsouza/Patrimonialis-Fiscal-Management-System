@@ -1,4 +1,6 @@
 # 📊 Fiscal Management System – Patrimonialis
+> ⚠️ This project is currently under development.
+
 
 A complete platform for managing corporate tax debts, legal processes, and customer portfolios. Designed to help fiscal/legal consultancies monitor debts at federal, state, and municipal levels, simulate payments, and track negotiations and legal actions.
 
